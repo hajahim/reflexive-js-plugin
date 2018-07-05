@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<connectionString>
+  <!-- 
+    RSJ connection strings.
+    All database connections for RSJ are configured here.
+  -->
+  <connector name="mssql" connectionString="'user':'sa';'password':'Asdcxz1+';'server':'localhost';'database':'RSJDatabase';'options': { 'encrypt': 'true' }" />
+  <connector name="postgres" connectionString="'user':'postgres';'password':'mihaja15';'server':'localhost';'database':'RSJDatabase'" />
+  <connector name="mysql" connectionString="user:sa;password:Asdcxz1+;server:localhost;database:RSJDatabase" />
+
+  <database driver="mssql/MSSQLConnector" connectorConfig="mssql" />
+ </connectionString>
