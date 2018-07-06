@@ -1,6 +1,6 @@
 {
   "name": "reflexivejs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Modules create to make developer life easy, can interact with database (Postgres, MySQL, Oracle, SQL Server) with method pre-definite and generate view automatically",
   "main": "./lib/index.js",
   "scripts": {
